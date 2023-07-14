@@ -1,4 +1,4 @@
-此程式介紹:
+# 股市每日爬蟲介紹:
 
 
 應用場景：
@@ -19,8 +19,18 @@
 
 易於使用：該程式的設計和操作非常直觀，使用者只需提供必要的參數和資源，程式將自動執行資料轉換和存儲過程。這使得即使對於非專業的Python使用者來說，也能輕鬆上手。
 
+# 如何使用
+1. 請先下載exe檔案以及xml檔案
+2. 打開xnl檔案
+3. 輸入想要的股票代碼至stockNo中
+4. 輸入想查詢的日期。共有:startYear,startMonth,endYear,endmonth
+5. 記得要在檔案名稱後加上xnl
+6. 輸入完之後存檔關閉xml檔
+7. 輸入exe
+8. 最後即可獲得整理過的excel檔案
 
-This program describes:
+
+# Stock Market Daily Crawler Introduction:
 
 
 Application Scenarios:
@@ -44,3 +54,15 @@ User-Friendly: The program is designed with an intuitive interface and operation
 Conclusion:
 
 The XML to Excel Data Conversion program is a powerful and flexible tool for converting XML data into Excel format. It finds applications in data analysis, external data integration, data import/export, and automated data processing. With its customizable features, efficiency, and user-friendly design, it is an ideal choice for handling XML data and interacting with Excel. Whether you are a data analyst, developer, or user dealing with large volumes of XML data, this program offers significant benefits.
+
+
+# How to Use:
+
+1. Download the executable (exe) file and the XML file.
+2. Open the XML file using a text editor or XML editor.
+3. Enter the desired stock code into the "stockNo" field.
+4. Enter the desired date range for querying. The parameters include "startYear", "startMonth", "endYear", and "endMonth".
+5. Make sure to save the XML file with an .xml extension.
+6. After entering the necessary information, save and close the XML file.
+7. Run the executable file (exe) by double-clicking on it or executing it from the command line.
+8. Once the program finishes running, you will obtain the processed Excel file with the data organized according to the specified parameters.
